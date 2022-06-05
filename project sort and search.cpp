@@ -1,3 +1,5 @@
+//Kode By Riyan Adi
+//Search and Sort C++
 #include <iostream>
 #include <string.h>
 #define maks 100
