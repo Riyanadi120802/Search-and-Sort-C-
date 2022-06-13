@@ -21,7 +21,7 @@ class Warung{
 			char nama[maks];
 			int stok;
 		}barang;
-		barang brg[10];
+		barang brg[maks];
 		barang t;
 };
 void Warung::sort(){
@@ -29,7 +29,7 @@ void Warung::sort(){
 	for(int i=0; i<n; i++){
 		for(int j=0; j<(n-1); j++){
 			if(brg[j].stok > brg[j+1].stok){
-				t.kd_brg=brg[j].kd_brg;
+			t.kd_brg=brg[j].kd_brg;
     			brg[j].kd_brg=brg[j+1].kd_brg;
     			brg[j+1].kd_brg=t.kd_brg;
     			
